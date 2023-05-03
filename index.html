@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Sign Up</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="wallPaperSide">
+				<img class="wallPaper" src="assets/pic.jpg" alt="sign up picture" />
+				<img class="logo" src="assets/logo.png" alt="logo" />
+			</div>
+			<form action="https://google.com" method="post" class="signUpSide">
+				<h1>Get <span style="color: #2e3232;">Started</span></h1>
+				<div class="inputs">
+					<div class="inp1">
+						<input type="text" placeholder="USERNAME" />
+						<input type="email" placeholder="E-MAIL" />
+						<input
+							type="password"
+							placeholder="PASSWORD"
+							name="pass"
+							minlength="8"
+							maxlength="16"
+							required
+							id="pass" />
+					</div>
+					<div class="inp2">
+						<input type="text" placeholder="LAST NAME" />
+						<input type="text" pattern="[0-9]" placeholder="PHONE" />
+						<input
+							type="password"
+							placeholder="CONFIRM PASSWORD"
+							name="pass-confirmed"
+							minlength="8"
+							maxlength="16"
+							required
+							id="passConfirmation" />
+					</div>
+				</div>
+                <div class="creation">
+                    <input class="button" type="submit" value="Create account"></input>
+                    <p>Already have an account ? <span>Log in</span></p>
+                </div>
+			</form>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
